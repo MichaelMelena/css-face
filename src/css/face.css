@@ -6,9 +6,9 @@
 
 .head {
   width: 15rem;
-  height: 17rem;
+  height: 10rem;
   background-color: #e6cab0;
-  border-radius: 40% 40% 40% 40%;
+  border-radius: 0 0 40% 40%;
   position: relative;
 }
 
@@ -16,9 +16,9 @@
   width: 2rem;
   height: 2rem;
   background-color: black;
-  border-radius: 15% 15% 35% 35%;
+  border-radius: 50%;
   position: absolute;
-  top: 40%;
+  top: 20%;
 }
 
 .eye-left {
@@ -34,7 +34,7 @@
   height: 1rem;
   background-color: #533725;
   position: absolute;
-  top: 33%;
+  top: 8%;
 }
 
 .eyebrow-left {
@@ -51,27 +51,46 @@
   position: absolute;
   background-color: #cc7070;
   bottom: 15%;
-  border-radius: 20% 20% 50% 50%  ;
+  border-radius: 20% 20% 50% 50%;
   left: calc(50% - 2.5rem);
+  overflow: hidden;
 }
 
+.teeth {
+  background-color: #eee;
+  width: 5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0;
+}
+.mouth-inner {
+  width: 4rem;
+  height: 2rem;
+  background-color: #8a4c4c;
+  border-radius: 50%;
+  position: relative;
+  left: calc(50% - 2rem);
+  bottom: -1rem;
+}
 .nose {
   width: 2rem;
-  height: 3rem;
+  height: 1.5rem;
   background-color: #e6b0cd;
   position: absolute;
   left: calc(50% - 1rem);
-  top: 45%;
-  border-radius: 50% 50% 25% 25%;
+  top: 40%;
+  border-radius: 25% 25% 50% 50%;
 }
 
 .hair {
-  width: 15rem;
+  width: 16rem;
   height: 5rem;
-  position: absolute;
+  position: relative;
   background-color: #533725;
   z-index: 1;
   border-radius: 200rem 200rem 25rem 25rem;
+  top: 0.2rem;
+  left: -0.5rem;
 }
 
 .hair-bun {
@@ -91,6 +110,22 @@
   left: 5rem;
   top: -0.75rem;
   border-radius: 2rem;
-  background-color: #00a5ff;
+  background-color: #00ff9d;
   z-index: 1;
+}
+.ear {
+  width: 1.5rem;
+  height: 2rem;
+  background-color: #e6cab0;
+  position: absolute;
+  top: 45%;
+}
+
+.ear-left {
+  left: -1.5rem;
+  border-radius: 50% 0 0 50%;
+}
+.ear-right {
+  right: -0.5rem;
+  border-radius: 0 50% 50% 0;
 }
