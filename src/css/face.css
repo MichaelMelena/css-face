@@ -1,6 +1,6 @@
 .face {
   position: absolute;
-  top: 200px;
+  top: 5.5rem;
   left: calc(50% - 7.5rem);
 }
 
@@ -27,6 +27,17 @@
 
 .eye-right {
   right: 25%;
+}
+
+.circle-bg:hover .eye-left {
+  animation-name: eye-blink;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+.circle-bg:hover .eyebrow-left{
+  animation: eyebrow-blink;
+  animation-duration: 0.4s;
+  animation-delay: 0.1s;
 }
 
 .eyebrow {

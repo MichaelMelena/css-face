@@ -1,0 +1,25 @@
+@keyframes eye-blink {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes eyebrow-blink {
+    0% {
+        transform: translateY(0)
+      }
+      50% {
+        transform: translateY(1rem)
+      }
+    
+      100% {
+        transform: translateY(0)
+      }
+}
